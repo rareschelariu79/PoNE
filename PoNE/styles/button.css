@@ -1,0 +1,31 @@
+.buttonPoNE {
+  background-color: #202040;
+  border: none;
+  color: white;
+  font-size: 4vh;
+}
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+.container {
+  width: 80%;
+
+}
+p {
+  color: #BEBAFF;
+}
+#textExpr{
+  padding: 1em;
+}
+
+#inputExpr {
+  /* border: 10px solid black; */
+  width: 100%;
+}
+:focus{
+  border: none;
+  border: 3px solid #46468c;
+}
+  /* align-self: center;
+  position: relative; */ 

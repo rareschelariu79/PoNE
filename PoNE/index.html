@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoNE</title>
+    <link rel="stylesheet" type="text/css" href="./styles/button.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/navbar.css" />
+  </head>
+  <body>
+    <ul>
+      <!-- HEADER -->
+      <li>
+        <a href="#contact"><h1>Contact</h1></a>
+      </li>
+      <li>
+        <a href="#about"><h1>About</h1></a>
+      </li>
+      <li id="homeButton">
+        <a class="active" href="#home"><h1>PoNE</h1></a>
+      </li>
+    </ul>
+    <div id="container">
+      <label>
+        <h2 id="textExpr">Scrie expresia mai jos:</h2>
+        <input id="inputExpr" type="text" />
+      </label>
+      <button class="buttonPoNE" id="btnExprPost">
+        Genereaza expresia poloneza postfixata:
+      </button>
+      <button id="btnExprPre">
+        Genereaza expresia poloneza prefixata:
+      </button>
+      <h1 id="outputExpr">The output will be displayed here</h1>
+    </div>
+
+    <script src="./scripts/polish.js"></script>
+  </body>
+</html>
